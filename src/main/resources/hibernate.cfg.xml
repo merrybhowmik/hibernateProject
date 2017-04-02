@@ -26,7 +26,7 @@
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
 
-        <!-- Drop and re-create the database schema on startup -->
+        <!-- use create to Drop and re-create the database schema on startup else update -->
         <property name="hbm2ddl.auto">update</property>
 
        <!-- <mapping resource="org/hibernate/tutorial/hbm/Event.hbm.xml"/> -->
